@@ -12,16 +12,16 @@ Pod::Spec.new do |s|
   s.description      = <<-DESC
 			Carlos is a small set of classes convenience operators to realize custom, flexible and powerful cache layers in your iOS, watchOS 2, tvOS and Mac OS X applications.
                        DESC
-  s.homepage         = "https://github.com/WeltN24/Carlos"
+  s.homepage         = "https://github.com/mohamedghonemi/Carlos"
   s.license          = 'MIT'
   s.author           = { "Vittorio Monaco" => "vittorio.monaco1@gmail.com" }
-  s.source           = { :git => "https://github.com/WeltN24/Carlos.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/mohamedghonemi/Carlos.git", :tag => s.version.to_s }
 
   s.ios.deployment_target = '8.0'
   s.osx.deployment_target = '10.9'
-  s.watchos.deployment_target = '2.0' 
+  s.watchos.deployment_target = '2.0'
   s.tvos.deployment_target = '9.0'
-  
+
   s.requires_arc = true
 
   s.dependency 'PiedPiper', '~> 0.8'
